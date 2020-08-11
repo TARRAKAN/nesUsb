@@ -26,13 +26,13 @@ wire		nes/famicom	Simba's junior	Dendy
  4.	Ground	-		VSS		-
  5.	Clock	-		CLK		-
 ________
-Connect controller's wires to digispark:
-Data	-
+Wires should be connected to your Digispark in that way:
+Data	- P1(In my code. But you can change it in #define's of preprocessor)
 
-Power	- 5V
+Power	- 5V(Constantly)
 
-Latch	-
+Latch	- P1(In my code. But you can change it in #define's of preprocessor)
 
-Ground	- GND
+Ground	- GND(Constantly)
 
-Clock	-
+Clock	- P0(In my code. But you can change it in #define's of preprocessor)
